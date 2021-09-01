@@ -1,61 +1,31 @@
-@media screen and ( max-width : 767.98px ) {
-
-  .planets-table-container {
-    font-size: 0.8em;
-    margin: 0 40px 20px;
-    text-align: center;
-    z-index: 1;
-  }
-
-  .planets-table-head tr > * {
-    padding: 10px;
-  }
-
-  .planets-table-head tr th {
-    border-bottom: 3px solid rgb(255, 123, 0);
-  }
-
-  .planets-table-body tr > * {
-    padding: 5px;
-  }
-
-  .planets-table-body tr td {
-    border-bottom: 1px solid rgb(255, 123, 0);
-  }
-
-  .planets-table-body tr a {
-    color: white;
-    display: block;
-  }
+.planets-table-container {
+  display: flex;
+  flex-flow: column nowrap;
+  font-size: 0.8em;
+  margin: 0 40px 20px;
+  overflow-x: auto;
+  text-align: center;
+  z-index: 1;
 }
 
-@media screen and ( max-width : 1500px ) {
+.planets-table-head tr > * {
+  padding: 10px;
+}
 
-  .planets-table-container {
-    font-size: 0.8em;
-    margin: 0 40px 20px;
-    text-align: center;
-    z-index: 1;
-  }
+.planets-table-head tr th {
+  border-bottom: 3px solid rgb(255, 123, 0);
+}
 
-  .planets-table-head tr > * {
-    padding: 10px;
-  }
+.planets-table-body tr > * {
+  padding: 5px;
+}
 
-  .planets-table-head tr th {
-    border-bottom: 3px solid rgb(255, 123, 0);
-  }
+.planets-table-body tr td {
+  border-bottom: 1px solid rgb(255, 123, 0);
+}
 
-  .planets-table-body tr > * {
-    padding: 5px;
-  }
-
-  .planets-table-body tr td {
-    border-bottom: 1px solid rgb(255, 123, 0);
-  }
-
-  .planets-table-body tr a {
-    color: white;
-    display: block;
-  }
+.planets-table-body tr a {
+  color: white;
+  display: block;
+  margin: 8px 0;
 }

@@ -1,181 +1,87 @@
-@media screen and ( max-width : 767.98px ) {
-
-  .filter-by-order-container {
-    align-items: center;
-    border: 1px solid white;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    height: 50px;
-    margin: 10px;
-    overflow: hidden;
-    padding: 10px;
-    position: relative;
-    text-align: center;
-  }
-
-  .filter-by-order-title {
-    font-weight: 900;
-  }
-
-  .filter-by-order-inputs {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .filter-by-order-column-label {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .filter-by-order-inputs > * {
-    margin: 5px;
-  }
-
-  .filter-by-order-inputs label select {
-    background-color: white;
-    border-color: #ccc;
-    border-radius: 10px;
-    border-style: solid;
-    border-width: 1px;
-    color: black;
-    cursor: pointer;
-    font-size: 16px;
-    margin-top: 10px;
-    padding: 5px;
-  }
-
-  .filter-by-order-inputs label select option {
-    color: black;
-  }
-
-  .radios-container {
-    display: flex;
-  }
-
-  .radios-container label {
-    align-items: center;
-    cursor: pointer;
-    display: flex;
-  }
-
-  .radios-container label > * {
-    cursor: pointer;
-    margin: 5px;
-  }
-
-  .radios-container label:nth-child( 1 ) {
-    margin-right: 20px;
-  }
-
-  .filter-by-order-inputs button {
-    background-color: black;
-    border-color: #ccc;
-    border-radius: 10px;
-    border-style: solid;
-    border-width: 1px;
-    color: white;
-    font-size: 16px;
-    margin-top: 10px;
-    padding: 5px;
-    text-transform: uppercase;
-  }
-
-  .filter-by-order-inputs button:active {
-    transform: scale(0.8);
-  }
+.filter-by-order-container {
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  height: 50px;
+  margin: 10px;
+  overflow: hidden;
+  padding: 10px;
+  position: relative;
+  text-align: center;
 }
 
-@media screen and ( max-width : 1500px ) {
+.filter-by-order-title {
+  font-weight: 900;
+}
 
-  .filter-by-order-container {
-    align-items: center;
-    border: 1px solid white;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    height: 50px;
-    margin: 10px;
-    overflow: hidden;
-    padding: 10px;
-    position: relative;
-    text-align: center;
-  }
+.filter-by-order-inputs {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
 
-  .filter-by-order-title {
-    font-weight: 900;
-  }
+.filter-by-order-column-label {
+  display: flex;
+  flex-direction: column;
+}
 
-  .filter-by-order-inputs {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
+.filter-by-order-inputs > * {
+  margin: 5px;
+}
 
-  .filter-by-order-column-label {
-    display: flex;
-    flex-direction: column;
-  }
+.filter-by-order-inputs label select {
+  background-color: white;
+  border-color: #ccc;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  color: black;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  padding: 5px;
+}
 
-  .filter-by-order-inputs > * {
-    margin: 5px;
-  }
+.filter-by-order-inputs label select option {
+  color: black;
+}
 
-  .filter-by-order-inputs label select {
-    background-color: white;
-    border-color: #ccc;
-    border-radius: 10px;
-    border-style: solid;
-    border-width: 1px;
-    color: black;
-    cursor: pointer;
-    font-size: 16px;
-    margin-top: 10px;
-    padding: 5px;
-  }
+.radios-container {
+  display: flex;
+}
 
-  .filter-by-order-inputs label select option {
-    color: black;
-  }
+.radios-container label {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+}
 
-  .radios-container {
-    display: flex;
-  }
+.radios-container label > * {
+  cursor: pointer;
+  margin: 5px;
+}
 
-  .radios-container label {
-    align-items: center;
-    cursor: pointer;
-    display: flex;
-  }
+.radios-container label:nth-child( 1 ) {
+  margin-right: 20px;
+}
 
-  .radios-container label > * {
-    cursor: pointer;
-    margin: 5px;
-  }
+.filter-by-order-inputs button {
+  background-color: black;
+  border-color: #ccc;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  color: white;
+  font-size: 16px;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+}
 
-  .radios-container label:nth-child( 1 ) {
-    margin-right: 20px;
-  }
-
-  .filter-by-order-inputs button {
-    background-color: black;
-    border-color: #ccc;
-    border-radius: 10px;
-    border-style: solid;
-    border-width: 1px;
-    color: white;
-    font-size: 16px;
-    margin-top: 10px;
-    padding: 5px;
-    text-transform: uppercase;
-  }
-
-  .filter-by-order-inputs button:active {
-    transform: scale(0.8);
-  }
+.filter-by-order-inputs button:active {
+  transform: scale(0.8);
 }
