@@ -10,25 +10,22 @@ function FiltersSelected() {
 
   return (
     <div className="filters-selected-container">
-      <p>Filtros Aplicados</p>
-      <div className="filters-container">
-        {
-          filterByNumericValues.map(({ column, comparison, value }, index) => (
-            <div key={ index } data-testid="filter" className="filter-selected">
-              <button
-                id={ column }
-                type="button"
-                onClick={ removeNumericValuesFilter }
-              >
-                X
-              </button>
-              <p>
-                { `${column} ${comparison} ${value}` }
-              </p>
-            </div>
-          ))
-        }
-      </div>
+      {
+        filterByNumericValues.map(({ column, comparison, value }, index) => (
+          <div key={ index } data-testid="filter" className="filter-selected">
+            <button
+              id={ column }
+              type="button"
+              onClick={ removeNumericValuesFilter }
+            >
+              x
+            </button>
+            <p>
+              { `${column} ${comparison} ${value}` }
+            </p>
+          </div>
+        ))
+      }
     </div>
   );
 }
