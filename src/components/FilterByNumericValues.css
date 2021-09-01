@@ -1,83 +1,173 @@
-.filter-by-numeric-container {
-  align-items: center;
-  border: 1px solid white;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-  height: 50px;
-  margin: 10px;
-  overflow: hidden;
-  padding: 10px;
-  position: relative;
-  text-align: center;
+@media screen and ( max-width : 767.98px ) {
+
+  .filter-by-numeric-container {
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 50px;
+    margin: 10px;
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+  }
+
+  .filter-by-numeric-title {
+    font-weight: 900;
+  }
+
+  .filter-by-numeric-inputs {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .filter-by-numeric-inputs > * {
+    margin: 5px;
+  }
+
+  .filter-by-numeric-inputs label select {
+    background-color: white;
+    border-color: #ccc;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 5px;
+  }
+
+  .filter-by-numeric-inputs label input {
+    background-color: white;
+    border-color: #ccc;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 5px;
+    width: 60%;
+  }
+
+  .filter-by-numeric-inputs label select option {
+    color: black;
+  }
+
+  .filter-by-numeric-btn {
+    background-color: black;
+    border-color: #ccc;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    color: white;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 5px;
+    text-transform: uppercase;
+  }
+
+  .filter-by-numeric-btn:active {
+    transform: scale(0.8);
+  }
+
+  .filter-by-numeric-btn:disabled {
+    opacity: 0.3;
+  }
 }
 
-.filter-by-numeric-title {
-  font-weight: 900;
-}
+@media screen and ( max-width : 1500px ) {
 
-.filter-by-numeric-inputs {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
+  .filter-by-numeric-container {
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 50px;
+    margin: 10px;
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+  }
 
-.filter-by-numeric-inputs > * {
-  margin: 5px;
-}
+  .filter-by-numeric-title {
+    font-weight: 900;
+  }
 
-.filter-by-numeric-inputs label select {
-  background-color: white;
-  border-color: #ccc;
-  border-radius: 10px;
-  border-style: solid;
-  border-width: 1px;
-  color: black;
-  cursor: pointer;
-  font-size: 16px;
-  margin-left: 20px;
-  margin-top: 10px;
-  padding: 5px;
-}
+  .filter-by-numeric-inputs {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
 
-.filter-by-numeric-inputs label input {
-  background-color: white;
-  border-color: #ccc;
-  border-radius: 10px;
-  border-style: solid;
-  border-width: 1px;
-  color: black;
-  cursor: pointer;
-  font-size: 16px;
-  margin-left: 20px;
-  margin-top: 10px;
-  padding: 5px;
-  width: 60%;
-}
+  .filter-by-numeric-inputs > * {
+    margin: 5px;
+  }
 
-.filter-by-numeric-inputs label select option {
-  color: black;
-}
+  .filter-by-numeric-inputs label select {
+    background-color: white;
+    border-color: #ccc;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 5px;
+  }
 
-.filter-by-numeric-btn {
-  background-color: black;
-  border-color: #ccc;
-  border-radius: 10px;
-  border-style: solid;
-  border-width: 1px;
-  color: white;
-  font-size: 16px;
-  margin-top: 10px;
-  padding: 5px;
-  text-transform: uppercase;
-}
+  .filter-by-numeric-inputs label input {
+    background-color: white;
+    border-color: #ccc;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 5px;
+    width: 60%;
+  }
 
-.filter-by-numeric-btn:active {
-  transform: scale(0.8);
-}
+  .filter-by-numeric-inputs label select option {
+    color: black;
+  }
 
-.filter-by-numeric-btn:disabled {
-  opacity: 0.3;
+  .filter-by-numeric-btn {
+    background-color: black;
+    border-color: #ccc;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    color: white;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 5px;
+    text-transform: uppercase;
+  }
+
+  .filter-by-numeric-btn:active {
+    transform: scale(0.8);
+  }
+
+  .filter-by-numeric-btn:disabled {
+    opacity: 0.3;
+  }
 }
