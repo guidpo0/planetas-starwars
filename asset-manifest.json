@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/planetas-starwars/static/css/main.cfff8c7a.chunk.css",
-    "main.js": "/planetas-starwars/static/js/main.1cb2f3a0.chunk.js",
-    "main.js.map": "/planetas-starwars/static/js/main.1cb2f3a0.chunk.js.map",
+    "main.js": "/planetas-starwars/static/js/main.a9540885.chunk.js",
+    "main.js.map": "/planetas-starwars/static/js/main.a9540885.chunk.js.map",
     "runtime-main.js": "/planetas-starwars/static/js/runtime-main.0d0fe89a.js",
     "runtime-main.js.map": "/planetas-starwars/static/js/runtime-main.0d0fe89a.js.map",
-    "static/js/2.5148df56.chunk.js": "/planetas-starwars/static/js/2.5148df56.chunk.js",
-    "static/js/2.5148df56.chunk.js.map": "/planetas-starwars/static/js/2.5148df56.chunk.js.map",
+    "static/js/2.44c977ee.chunk.js": "/planetas-starwars/static/js/2.44c977ee.chunk.js",
+    "static/js/2.44c977ee.chunk.js.map": "/planetas-starwars/static/js/2.44c977ee.chunk.js.map",
     "index.html": "/planetas-starwars/index.html",
-    "precache-manifest.334c3e766241993e949061371cec09c6.js": "/planetas-starwars/precache-manifest.334c3e766241993e949061371cec09c6.js",
+    "precache-manifest.fa8ff92d39250084fd78dff0a7c242de.js": "/planetas-starwars/precache-manifest.fa8ff92d39250084fd78dff0a7c242de.js",
     "service-worker.js": "/planetas-starwars/service-worker.js",
     "static/css/main.cfff8c7a.chunk.css.map": "/planetas-starwars/static/css/main.cfff8c7a.chunk.css.map",
-    "static/js/2.5148df56.chunk.js.LICENSE.txt": "/planetas-starwars/static/js/2.5148df56.chunk.js.LICENSE.txt",
+    "static/js/2.44c977ee.chunk.js.LICENSE.txt": "/planetas-starwars/static/js/2.44c977ee.chunk.js.LICENSE.txt",
     "static/media/App.css": "/planetas-starwars/static/media/bg.db1a6fdc.jpg",
     "static/media/starwars-logo.png": "/planetas-starwars/static/media/starwars-logo.a41cce90.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0d0fe89a.js",
-    "static/js/2.5148df56.chunk.js",
+    "static/js/2.44c977ee.chunk.js",
     "static/css/main.cfff8c7a.chunk.css",
-    "static/js/main.1cb2f3a0.chunk.js"
+    "static/js/main.a9540885.chunk.js"
   ]
 }
