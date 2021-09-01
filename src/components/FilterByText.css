@@ -13,11 +13,11 @@
   text-align: center;
 }
 
-.filter-by-text-container label {
+.filter-by-text-container div {
   font-weight: 900;
 }
 
-.filter-by-text-container label input {
+.filter-by-text-container div input {
   background-color: white;
   border-color: #ccc;
   border-radius: 10px;
@@ -31,6 +31,6 @@
   padding: 5px;
 }
 
-.filter-by-text-container label input:focus {
+.filter-by-text-container div input:focus {
   outline: none;
 }

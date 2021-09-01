@@ -28,19 +28,17 @@ function FilterByText() {
           alt="down arrow"
         />
       </button>
-      <label
-        htmlFor="name-filter"
+      <div
         className="filter-by-text-label"
       >
         Filtrar pelo nome
         <input
-          id="name-filter"
           type="text"
           data-testid="name-filter"
           onChange={ handleNameFilterChange }
           placeholder="Digite o nome do planeta"
         />
-      </label>
+      </div>
     </div>
   );
 }
