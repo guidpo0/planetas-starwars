@@ -9,7 +9,7 @@ function Table() {
   const TEN = 10;
 
   return (
-    <table className="planets-table">
+    <table className="planets-table-container">
       <thead className="planets-table-head">
         <tr>
           <th>Nome</th>
