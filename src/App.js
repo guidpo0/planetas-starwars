@@ -9,6 +9,13 @@ function App() {
   return (
     <PlanetsProvider>
       <div className="root">
+        <span className="planet-0" />
+        <span className="planet-1" />
+        <span className="planet-2" />
+        <span className="planet-3" />
+        <span className="planet-4" />
+        <span className="planet-5" />
+        <span className="planet-6" />
         <FilterHeader />
         <FiltersSelected />
         <Table />

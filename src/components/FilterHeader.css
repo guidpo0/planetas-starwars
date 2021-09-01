@@ -1,21 +1,19 @@
 .header {
   align-items: center;
-  background-image: url('../images/header-bg.jpg');
-  background-position: 50% 0%;
-  background-size: 80% 120%;
-  color: white;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  padding: 20px;
 }
 
 .header-title {
-  font-size: 3em;
-  font-weight: 900;
-  padding-top: 20vh;
+  margin: 10px;
+  width: 20%;
 }
 
-.form-container {
+.filters-container {
+  align-items: flex-start;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   width: 100%;
 }

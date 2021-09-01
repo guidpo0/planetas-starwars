@@ -17,7 +17,6 @@ function FiltersSelected() {
             <div key={ index } data-testid="filter" className="filter-selected">
               <button
                 id={ column }
-                className="btn btn-dark btn-sm"
                 type="button"
                 onClick={ removeNumericValuesFilter }
               >

@@ -3,12 +3,13 @@ import FilterByNumericValues from './FilterByNumericValues';
 import FilterByOrder from './FilterByOrder';
 import FilterByText from './FilterByText';
 import './FilterHeader.css';
+import starWars from '../images/starwars-logo.png';
 
 function FilterHeader() {
   return (
     <header className="header">
-      <h1 className="header-title">PLANETS SEARCH</h1>
-      <div className="form-container">
+      <img src={ starWars } alt="StarWars logo" className="header-title" />
+      <div className="filters-container">
         <FilterByText />
         <FilterByOrder />
         <FilterByNumericValues />

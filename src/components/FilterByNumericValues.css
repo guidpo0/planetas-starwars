@@ -1,34 +1,83 @@
 .filter-by-numeric-container {
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  flex-grow: 1;
+  height: 50px;
+  margin: 10px;
+  overflow: hidden;
+  padding: 10px;
+  position: relative;
   text-align: center;
 }
 
 .filter-by-numeric-title {
-  font-size: 1.2em;
+  font-weight: 900;
 }
 
 .filter-by-numeric-inputs {
-  align-items: flex-end;
+  align-items: center;
   display: flex;
-  justify-content: center;
-  margin-bottom: 15px;
+  flex-direction: column;
+  text-align: center;
 }
 
 .filter-by-numeric-inputs > * {
-  margin: 0 8px;
+  margin: 5px;
 }
 
-.filter-by-numeric-column-label {
-  width: 11em;
+.filter-by-numeric-inputs label select {
+  background-color: white;
+  border-color: #ccc;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  color: black;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 20px;
+  margin-top: 10px;
+  padding: 5px;
 }
 
-.filter-by-numeric-value-label {
-  width: 20%;
+.filter-by-numeric-inputs label input {
+  background-color: white;
+  border-color: #ccc;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  color: black;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 20px;
+  margin-top: 10px;
+  padding: 5px;
+  width: 60%;
+}
+
+.filter-by-numeric-inputs label select option {
+  color: black;
 }
 
 .filter-by-numeric-btn {
-  height: 38px;
-  width: 9em;
+  background-color: black;
+  border-color: #ccc;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  color: white;
+  font-size: 16px;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+.filter-by-numeric-btn:active {
+  transform: scale(0.8);
+}
+
+.filter-by-numeric-btn:disabled {
+  opacity: 0.3;
 }

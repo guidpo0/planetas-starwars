@@ -1,7 +1,6 @@
 import React, { useContext } from 'react';
 import PlanetsContext from '../context/PlanetsContext';
 import allTableFilters from '../helpers/allTableFilters';
-import FilmCell from './FilmCell';
 import './Table.css';
 
 function Table() {
@@ -48,13 +47,20 @@ function Table() {
               <td>{ terrain }</td>
               <td>
                 { films.map((film, filmIndex) => (
-                  <FilmCell film={ film } key={ filmIndex } />
+                  <a
+                    href={ film }
+                    rel="noopener noreferrer"
+                    key={ filmIndex }
+                    target="_blank"
+                  >
+                    { `Filme ${filmIndex + 1}` }
+                  </a>
                 )) }
               </td>
               <td>{ created.slice(0, TEN) }</td>
               <td>{ edited.slice(0, TEN) }</td>
               <td>
-                <a rel="noreferrer" href={ url } target="_blank">
+                <a rel="noopener noreferrer" href={ url } target="_blank">
                   { `Planet ${name}` }
                 </a>
               </td>
