@@ -6,7 +6,9 @@ Projeto desenvolvido durante formação em desenvolvedor Web Full Stack pela Try
 
 Essa aplicação têm a intenção de proporcionar ao(à) usuário(a) acesso à informações de diversos planetas do universo Starwars! O(a) usuário(a) vai ter acesso a uma lista de planetas, também há a opção de realizar filtros nesta lista para procurar por planetas específicos, com os filtros é possível realizar uma busca pelo nome ou por informações mensuráveis dos planetas e ainda é possível ordernar esses resultados!
 
-Lembrando que esta aplicação corresponde aos meus esforços para melhorar minhas hard skills e soft skills sinta-se à vontade para explorá-la! Feedbacks construtivos são sempre bem vindos! Abaixo você poderá encontrar mais informações técnicas sobre este projeto.
+Lembrando que esta aplicação corresponde aos meus esforços para melhorar minhas hard skills e soft skills sinta-se à vontade para explorá-la! Feedbacks construtivos são sempre bem vindos!
+
+Abaixo você poderá encontrar mais informações técnicas sobre este projeto.
 
 ---
 
